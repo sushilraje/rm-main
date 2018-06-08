@@ -3,7 +3,7 @@ var Client = require('azure-iot-device').Client;
 var ConnectionString = require('azure-iot-device').ConnectionString;
 var Message = require('azure-iot-device').Message;
 var async = require('async');
-
+var dummy = "dummy";
 
 var connectionString = 'HostName=iothub-wqlh6.azure-devices.net;DeviceId=5de0f4ca-42fd-486a-845f-a728d20b35bb;SharedAccessKey=AXZwx/1qGASQE+9oDCqeCg3bQwnTPns1YLTVujy48qk=';
 var deviceId = ConnectionString.parse(connectionString).DeviceId;
