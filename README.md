@@ -1,2 +1,0 @@
-# rm-cli
-cli
