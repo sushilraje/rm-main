@@ -1,0 +1,16 @@
+{
+  "name": "remotemonitoring",
+  "version": "1.0.0",
+  "description": "Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.1",
+    "azure-iot-device": "^1.4.3",
+    "azure-iot-device-mqtt": "^1.4.3"
+  }
+}
